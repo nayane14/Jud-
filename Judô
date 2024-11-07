@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos de Judô</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .video-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px 0;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        iframe {
+            width: 100%;
+            max-width: 640px;
+            height: 360px;
+            border: none;
+            border-radius: 8px;
+        }
+        .description {
+            margin-top: 10px;
+            text-align: center;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Catálogo de Vídeos de Judô</h1>
+
+    <div class="video-container">
+        <h2>Judô: Técnica e Estratégia</h2>
+        <iframe src="https://www.youtube.com/embed/6LWfTDfOm7I" allowfullscreen></iframe>
+        <p class="description">Um vídeo que aborda as principais técnicas e estratégias do judô, perfeito para iniciantes e praticantes avançados.</p>
+    </div>
+
+    <div class="video-container">
+        <h2>Os Fundamentos do Judô</h2>
+        <iframe src="https://www.youtube.com/embed/DWZkd41_WMg" allowfullscreen></iframe>
+        <p class="description">Aprenda sobre os fundamentos do judô, com dicas valiosas para melhorar sua técnica e desempenho no tatame.</p>
+    </div>
+
+</body>
+</html>
